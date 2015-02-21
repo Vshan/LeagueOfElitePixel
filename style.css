@@ -1,0 +1,1051 @@
+/*******************************
+Designed by Vinay Bhat
+http://facebook.com/vshanbhatman 
+*******************************/ 
+
+/*********************
+***** Main Styles ****
+*********************/ 
+
+body {
+
+    color: #bdb9b9;
+	font-size: 12px;
+
+	font-family:  'Droid Sans', Arial, sans-serif;
+	background: url('img/pattern.jpg');
+
+    
+}
+
+
+div#container {
+	
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+        text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Ostrich Black";
+  src: url("type/ostrich-black-webfont.eot");
+  src: local("☺"),
+    url("type/ostrich-black-webfont.woff") format("woff"),
+    url("type/ostrich-black-webfont.otf") format("opentype"),
+    url("type/ostrich-black-webfont.svg#ostrich-black-webfont") format("svg");
+  }
+
+@font-face {
+  font-family: "Ostrich Regular";
+  src: url("type/ostrich-regular-webfont.eot");
+  src: local("☺"),
+    url("type/ostrich-regular-webfont.woff") format("woff"),
+    url("type/ostrich-regular-webfont.otf") format("opentype"),
+    url("type/ostrich-regular-webfont.svg#ostrich-regular-webfont") format("svg");
+  }
+
+
+div.Clear {
+	
+	clear: both;
+}
+
+
+/********************
+***** Landing *******
+********************/
+
+div#topBanner {
+	
+	background: black;
+	height: 5px;
+}
+
+a#LogoImage {
+	
+	display: block;
+	margin: 35px auto;
+	text-align: center;
+
+}
+
+
+h1  {
+	
+	font-family: 'Ostrich Regular', 'League Gothic', sans-serif;
+	font-size: 100px;
+	color: #424242;
+	text-align: center;
+	display: block;
+	text-shadow: 0px 4px 0px rgba(69,69,69,0.2);
+} 
+
+h1 span#FirstLine {
+	
+	font-size: 60px;
+	display: block;
+
+}
+
+
+h1 span#FirstLine:before {
+	
+	content: url('img/logosidelines.png') repeat;
+
+
+}
+
+h1 span#FirstLine:after {
+	
+	content: url('img/logosidelines.png') repeat;
+	
+}
+
+
+nav#mainNav {
+	
+	margin-top: 50px;
+}
+
+
+a.Btn, input.Btn {
+	
+	float: left;
+	margin-right: 26px;
+	font-family: 'Ostrich Black', 'League Gothic', sans-serif;
+	font-size: 30px;
+	background-color: #1a82f7;
+    background-image: url(images/fallback-gradient.png);
+    background-image: -webkit-linear-gradient(top, #5c5858, #3f3c3c);
+    background-image:    -moz-linear-gradient(top, #5c5858, #3f3c3c);
+    background-image:     -ms-linear-gradient(top, #5c5858, #3f3c3c);
+    background-image:      -o-linear-gradient(top, #5c5858, #3f3c3c);
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0px 2px 0px rgba(0,0,0,0.9),
+    			 0px 3px 0px rgba(255,255,255,0.2);
+    -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.4),
+    			0px 5px 0px rgba(40,40,40,1),
+    			0px 8px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.4),
+    			0px 5px 0px rgba(40,40,40,1),
+    			0px 8px 0px rgba(0,0,0,0.15);
+    -o-box-shadow: 0px 1px 0px rgba(255,255,255,0.4),
+    			0px 5px 0px rgba(40,40,40,1),
+    			0px 8px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 0px rgba(255,255,255,0.4),
+    			0px 5px 0px rgba(40,40,40,1),
+    			0px 8px 0px rgba(0,0,0,0.15);
+    width: 220px;
+    text-align: center;
+    padding: 7px 0px;
+    margin-bottom: 30px;
+
+}
+
+a.Btn:hover, input.Btn:hover {
+	
+	text-decoration: none;
+	background-image: -webkit-linear-gradient(top, #6e6a6a, #4c4848);
+    background-image:    -moz-linear-gradient(top, #6e6a6a, #4c4848);
+    background-image:     -ms-linear-gradient(top, #6e6a6a, #4c4848);
+    background-image:      -o-linear-gradient(top, #6e6a6a, #4c4848);
+    cursor: pointer;
+
+}
+
+
+nav#mainNav a#last {
+	
+	margin-right: 0px;
+
+}
+
+
+div.divider {
+	
+	width: 960px;
+	height: 2px;
+	background: url('img/divider.gif');
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+/***********************
+***** Portfolio ********
+***********************/
+
+div.Heading h2 {
+	
+	font-family: 'Ostrich Black', 'League Gothic', sans-serif;
+	font-size: 72px;
+	text-align: center;
+	color: #464646;
+	text-shadow: 0px 3px 0px rgba(0,0,0,0.2);
+
+}
+
+
+div.Heading h2:before {
+	
+	content: "";
+	display: block;
+	background: url('img/toplines.jpg') repeat;
+	width: 243px;
+	height: 16px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+div.Heading h2:after {
+	
+	content: "";
+	display: block;
+	background: url('img/toplines.jpg') repeat;
+	width: 243px;
+	height: 16px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 5px;
+	margin-bottom: 40px;
+}
+
+div.Heading h2 span {
+	
+	font-family: 'League Gothic', sans-serif;
+	text-shadow: none;
+	position: relative;
+	bottom: 5px;
+}
+
+div.Heading h2 span.Bracket1:before {
+	
+	content: "";
+	display: block;
+	background: url('img/sidelines.jpg') repeat;
+	width: 286px;
+	height: 51px;
+	position: relative;
+	top: 20px;
+	float: left;
+
+
+}
+
+div.Heading h2 span.Bracket2:after {
+	
+	content: "";
+	display: block;
+	background: url('img/sidelines.jpg') repeat;
+	width: 286px;
+	height: 51px;
+	position: relative;
+	top: 20px;
+	float: right;
+
+
+}
+
+
+ul#Filter li a {
+	
+	float: left;
+	font-family: 'Ostrich Regular', 'League Gothic', sans-serif;
+	font-size: 30px;
+	margin-right: 60px;
+	color: #464646;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	margin-bottom: 50px;
+
+	transition: text-shadow 0.5s ease-in-out;
+	-moz-transition: text-shadow 0.5s ease-in-out;
+	-webkit-transition: text-shadow 0.5s ease-in-out;
+}
+
+ul#Filter li a:hover {
+	
+	text-decoration: none;
+	text-shadow: 0px 2px 1px rgba(0,0,0,0.5);
+
+	transition: text-shadow 0.5s ease-in-out;
+	-moz-transition: text-shadow 0.5s ease-in-out;
+	-webkit-transition: text-shadow 0.5s ease-in-out;
+
+}
+
+ul#Filter li a#activeFilterItem {
+	
+	text-decoration: underline;
+}
+
+ul#Filter li a:before {
+	
+	content: url('img/list.jpg');
+}
+
+
+
+ul#Items li  {
+	
+	float: left;
+	border: 5px solid rgba(237,237,237,1);
+	margin-right: 26px;
+	margin-bottom: 30px;
+
+	transition: border 0.3s ease-in-out;
+	-moz-transition: border 0.3s ease-in-out;
+	-webkit-transition: border 0.3s ease-in-out;
+}
+
+ul#Items li:nth-child(4n+4) {
+  
+  	margin-right: 0px;
+  	margin-left: 2px;
+}
+
+ul#Items li:hover {
+	
+	border: 5px solid rgba(220,220,220,1);
+
+	transition: border 0.3s ease-in-out;
+	-moz-transition: border 0.3s ease-in-out;
+	-webkit-transition: border 0.3s ease-in-out;
+}
+
+
+p.DividerP {
+	
+	font-size: 11px;
+	float: right;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+	margin-bottom: 10px;
+}
+
+
+/***********************
+****** About Us ********
+***********************/
+
+div#AboutUs h4 {
+	
+	
+	color: #8f8f8f;
+	font-family: 'Ostrich Black', 'League Gothic', sans-serif;
+	font-size: 24px;
+}
+
+div#AboutUsHeading h2 {
+
+	
+}
+
+div#AboutUsHeading h2:before {
+	
+	width: 225px;
+}
+
+div#AboutUsHeading h2:after {
+	
+	width: 225px;
+}
+
+div#AboutUsHeading h2 span.Bracket1:before {
+	
+	width: 300px;
+
+}
+
+div#EliteModeHeading h2 span.Bracket2:after {
+	
+	width: 300px;
+}
+
+div#AboutPics img {
+	
+	border: 5px solid rgba(237,237,237,1);
+
+	transition: border 0.3s ease-in-out;
+	-moz-transition: border 0.3s ease-in-out;
+	-webkit-transition: border 0.3s ease-in-out;
+}
+
+div#AboutPics img:hover {
+	
+	border: 5px solid rgba(220,220,220,1);
+
+	transition: border 0.3s ease-in-out;
+	-moz-transition: border 0.3s ease-in-out;
+	-webkit-transition: border 0.3s ease-in-out;
+}
+
+div#AboutText1 {
+	
+	float: left;
+	width: 460px;
+	margin: 30px auto;
+}
+
+div#AboutText2 {
+	
+	float: right;
+	width: 460px;
+	margin: 30px auto;
+}
+
+div#AboutText3 {
+	
+	width: 960px;
+	margin-bottom: 30px;
+}
+
+div.AboutText {
+	
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+	line-height: 16px;
+}
+
+div.AboutText p {
+	
+	margin-top: 20px;
+}
+
+
+div#SkillSet {
+	
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+div#SkillSet ul  {
+	
+	margin-top: 20px;
+
+}
+
+div#SkillSet ul li {
+	
+	width: 300px;
+	clear: both;
+
+	margin-bottom: 10px;
+	padding: 5px 0px;
+
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+
+
+}
+
+div#SkillSet ul li:before {
+	
+	content: url('img/list4.png');
+}
+
+div#SkillSet ul li:after {
+	
+	content: "»";
+}
+
+div#SkillSet ul li span {
+	
+	float: right;
+}
+
+
+div#SkillSet ul li p {
+	
+	display: inline-block;
+	font-size: 14px;
+	color: #757575;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+}
+
+
+
+div#SkillSet ul li:hover {
+	
+	background-color: rgba(0,0,0,0.1);
+	width: 800px;
+	padding: 5px 15px;
+	color: white;
+	border-radius: 0px 10px 10px 0px;	
+	
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+div#SkillSet ul li#js:hover {
+	
+	width: 600px;
+}
+
+div#SkillSet ul li#Ruby:hover {
+	
+	width: 250px;
+}
+
+div#SkillSet ul li#PHP:hover {
+	
+	width: 500px;
+}
+
+div#SkillSet ul li#CMS:hover {
+	
+	width: 350px;
+}
+
+
+/************************
+******** Elite Mode *****
+************************/
+
+div#EliteModeHeading h2 span.Bracket1:before  {
+	
+	width: 275px;
+}
+
+div#EliteModeHeading h2 span.Bracket2:after {
+	
+	width: 275px;
+}
+
+div#EliteModeHeading h2:before {
+	
+	width: 270px;
+}
+
+div#EliteModeHeading h2:after {
+	
+	width: 270px;
+}
+
+
+p.Introduction {
+	
+	font-family: 'Ostrich Regular', 'League Gothic', sans-serif;
+	font-size: 30px;
+	color: #464646;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.15);
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+p.Introduction em {
+	
+	font-family: 'Ostrich Black', 'League Gothic', sans-serif;
+}
+
+
+div.EliteStages {
+	
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+div.EliteStages h3 {
+	
+	font-family: 'Ostrich Black', 'League Gothic', sans-serif;
+	font-size: 40px;
+	color: #464646;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	margin-bottom: 40px;
+}
+
+div.EliteStages p {
+	
+	font-family: 'Ostrich Regular', 'League Gothic', sans-serif;
+	font-size: 32px;
+	color: #464646;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.15);
+}
+
+div#Stage1 {
+	
+	background: rgba(188,248,255,0.5);
+}
+
+div#Stage2 {
+	
+	background: rgba(255,179,199,0.5);
+}
+
+div#Stage3 {
+	
+	background: rgba(255,252,167,0.5);
+}
+
+div#EliteGraphic {
+	
+	margin-top: 100px;
+	height: 470px;
+}
+
+div#EliteGraphic p {
+	
+	font-family: 'Ostrich Regular', 'League Gothic', sans-serif;
+	font-size: 30px;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.1);
+	padding: 10px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	float: right;
+
+}
+
+
+div#EliteGraphic img {
+	
+	display: block;
+	margin: 0 auto;
+
+}
+
+
+div#EliteGraphic p#Website {
+	
+	float: left;
+	text-align: left;
+	width: 405px;
+	position: relative;
+	bottom: 240px;
+	left: 55px;
+}
+
+div#EliteGraphic p#Ideas {
+	
+	position: relative;
+	bottom: 423px;
+	width: 400px;
+	right: 57px;
+	text-align: right;
+}
+
+div#EliteGraphic p#Designs {
+	
+	position: relative;
+	bottom: 232px;
+	width: 253px;
+	right:  55px;
+	text-align: right;
+
+}
+
+div#EliteGraphic p#Code {
+	
+	position: relative;
+	bottom: 125px;
+	width: 466px;
+	text-align: right;
+	left: 220px;
+
+}
+
+
+/***********************
+**** Contact ***********
+***********************/
+
+
+div#ContactHeading h2 span.Bracket1:before {
+	
+	width: 302px;
+}
+
+div#ContactHeading h2 span.Bracket2:after {
+
+	width: 302px;
+}
+
+div#ContactHeading h2:before {
+	
+	width: 210px;
+}
+
+div#ContactHeading h2:after {
+	
+	width: 210px;
+}
+
+div#ContactHalf {
+	
+	width: 460px;
+	background: rgba(0,0,0,0.05);
+	border-radius: 10px;
+	float: left;
+	height: 550px;
+}
+
+div#SocialMedia {
+	
+	margin-bottom: 20px;
+}
+
+div#SocialMedia div.Networks {
+	
+	clear: both;
+}
+
+div#SocialMedia div.Networks img {
+	
+	float: left;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.5);
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+div#SocialMedia div.Networks p {
+	
+	float: left;
+	margin-top: 22px;
+	margin-left: 20px;
+	width: 330px;
+	color: white;
+	background: rgba(0,0,0,0.2);
+	padding: 7px 20px 7px 20px;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	font-weight: bold;
+
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+div#SocialMedia div.Networks p:hover {
+	
+	border-radius: 5px;
+	padding: 7px 15px 7px 25px;
+
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+div#SocialMedia div.Networks a:hover {
+	
+	text-decoration: none;
+
+}
+
+div#SocialMedia div#Facebook p:hover {
+	
+	background: #3b5999;
+
+}
+
+div#SocialMedia div#Twitter p:hover {
+	
+	background: #56d6fd;
+}
+
+div#SocialMedia div#Dribbble p:hover {
+	
+	background: #c9547e;
+}
+
+div#SocialMedia div#deviantART p:hover {
+	
+	background: #ccd9c8;
+}
+
+div#BlogWidget {
+	
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+div#BlogWidget h3 {
+	
+	font-family: 'Ostrich Black', 'League Gothic', sans-serif;
+	font-size: 24px;
+	color: #464646;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	margin-bottom: 20px;
+}
+
+div#BlogWidget ul#BlogEntries li {
+	
+	margin-bottom: 20px;
+}
+
+div#BlogWidget ul#BlogEntries li h4 {
+	
+	font-family: 'Ostrich Regular', 'League Gothic', sans-serif;
+	font-size: 24px;
+	color: #464646;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+}
+
+div#BlogWidget ul#BlogEntries li p.Comments {
+	
+	background: url('img/comments.png') no-repeat;
+	height: 15px;
+	text-align: center;
+	width: 31px;
+	padding-top: 3px;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+	float: left;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+div#BlogWidget ul#BlogEntries li p.Date {
+	
+	margin-top: 10px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+
+div#BlogWidget ul#BlogEntries li {
+
+	display: block;
+	background: url('img/list2.jpg') no-repeat;
+	padding-left: 20px;
+}
+
+
+
+div#BlogWidget a.Btn {
+	
+	float: right;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+
+div#ContactHalf2 {
+	
+	width: 460px;
+	background: rgba(0,0,0,0.05);
+	border-radius: 10px;
+	float: right;
+	height: 550px;
+	margin-bottom: 30px;
+}
+
+form#ContactUs {
+	
+	margin: 30px;
+
+}
+
+form#ContactUs label {
+
+	font-family: 'Ostrich Regular', 'League Gothic', sans-serif;
+	font-size: 24px;
+	color: #464646;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	margin-right: 10px;
+}
+
+form#ContactUs input.Default, textarea {
+
+	width: 330px;
+	height: 35px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.2);
+	padding-left: 5px;
+	
+}
+
+form#ContactUs textarea {
+	
+	width: 347px;
+	height: 185px;
+	padding: 20px;
+}
+
+form#ContactUs input.Btn {
+	
+	font-size: 20px;
+	border: none;
+	float: right;
+}
+
+
+/*********************
+******* Footer *******
+*********************/
+
+div#Footer a#GoUp {
+	
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	color: white;
+	width: 125px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	opacity: 0.5;
+
+	transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	
+}
+
+div#Footer a#GoUp:hover {
+	
+	text-decoration: none;
+	opacity: 1;
+
+	transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+
+
+}
+
+
+div#Footer a#GoUp p {
+	
+	background: #cdcccc;
+	padding: 3px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+
+div#Footer div#CopyrightOwner p {
+	
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+	font-size: 10px;
+}
+
+div#Footer div#CopyrightOwner p a {
+	
+	font-weight: bold;
+	color: #cdcccc;
+
+	opacity: 1;
+
+		transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+}
+
+div#Footer div#CopyrightOwner p a:hover {
+	
+	transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+
+	opacity: 0.5;
+}
+
+
+div#Footer div#CopyrightOwner p#Foot1 {
+	
+	float: left;
+
+
+}
+
+div#Footer div#CopyrightOwner p#Foot2 {
+	
+	float: right;
+}
+
+div#Footer div#CopyrightOwner p#Foot2 span {
+	
+	font-weight: bold;
+}
+
+div#Footer div#CopyrightOwner img {
+	
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+/********************************
+**** Fixed Navigation ***********
+********************************/
+
+div#FixedNav nav#FixedNav {
+	
+	position: fixed;
+	margin-top: 160px;
+}
+
+div#FixedNav nav#FixedNav a {
+	
+	display: block;
+	margin-left: -115px;
+	margin-bottom: 10px;
+	background-color: red;
+	width: 90px;
+	padding: 5px 40px 5px 20px;
+	border-radius: 0px 10px 10px 0px;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #8f8f8f;
+	text-shadow: 0px 1px 0px white;
+	background-color: #1a82f7;
+    background-image: url(images/fallback-gradient.png);
+    background-image: -webkit-linear-gradient(top, #f2f2f2, #dcd3d3);
+    background-image:    -moz-linear-gradient(top, #f2f2f2, #dcd3d3);
+    background-image:     -ms-linear-gradient(top, #f2f2f2, #dcd3d3);
+    background-image:      -o-linear-gradient(top, #f2f2f2, #dcd3d3);
+    box-shadow: inset 1px 1px 0px rgba(255,255,255,0.5),
+    			inset -1px -1px 0px rgba(255,255,255,0.5),
+    				  0px 1px 2px rgba(0,0,0,0.5),
+    				  1px 1px 0px rgba(0,0,0,0.1),
+    				  -1px -1px 0px rgba(0,0,0,0.1);
+    text-align: left;
+
+
+    transition: margin-left 0.2s ease-in-out;
+	-moz-transition: margin-left 0.2s ease-in-out;
+	-webkit-transition: margin-left 0.2s ease-in-out;
+}
+
+div#FixedNav nav#FixedNav a:after {
+
+	content: url('img/portfolio.png');
+	float: right;
+	margin-left: 20px;
+	position: relative;
+	bottom: 14px;
+	left: 27px;
+	
+
+}
+
+div#FixedNav nav#FixedNav a#AbtUs:after {
+	
+	content: url('img/aboutus.png');
+}
+
+div#FixedNav nav#FixedNav a#EltMde:after {
+	
+	content: url('img/elitemode.png');
+	left: 30px;
+}
+
+div#FixedNav nav#FixedNav a#Cntct:after {
+	
+	content: url('img/contact.png');
+	bottom: 13px;
+}
+
+div#FixedNav nav#FixedNav a:hover {
+	
+	text-decoration: none;
+	margin-left: 0px;
+
+
+	transition: margin-left 0.2s ease-in-out;
+	-moz-transition: margin-left 0.2s ease-in-out;
+	-webkit-transition: margin-left 0.2s ease-in-out;
+
+}
